@@ -28,7 +28,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dataedu">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hbp">Hoppy Projects</a></li>
                 </ul>
             </div>
         </nav>
@@ -46,7 +46,7 @@
                                 Sydney, NSW, Australia 🇦🇺 🇰🇷
                                 <a href="mailto:name@email.com">hkim9936@protonmail.com</a>
                             </div>
-                            <p class="lead mb-5">I am an I.T. consultant. I am also a Data and Machine Learning Specialist. </p>
+                            <p class="lead mb-5"> I am a Data Specialist Based out of Sydney, Australia. <br> As a Hobby, I enjoy working on Projects based on Machine Learning & Data Engineering Technologies to not only further my own understanding and because its alot of fun.</p>
                             <div class="social-icons">
                                 <a class="social-icon" href="https://www.linkedin.com/in/hoontech/"><i class="fab fa-linkedin-in"></i></a>
                                 <a class="social-icon" href="https://github.com/GIGACHADhoon"><i class="fab fa-github"></i></a>
@@ -169,13 +169,41 @@
             </section>
             <hr class="m-0" />
             <!-- Interests-->
-            <section class="resume-section" id="portfolio">
+            <section class="resume-section" id="hbp">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Portfolio</h2>
-                    <ul>
-                        <li><a href="https://chatgptgame.onrender.com">Chat GPT Adventure Game</a></li>
-                        <li><a href="https://huggingface.co/spaces/GIGACHAhoon/BasicNNYoutubeSentimentTop5CommentPrediction">Youtube Comments Sentiment Analyzer</a></li>
-                    </ul>
+                    <h2 class="mb-5">Hoppy Projects</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                          <div class="card text-center">
+                            <img src="{{url_for('static',filename = 'chatgptAdventure.webp')}}" class="card-img-top border-bottom" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">ChatGPT3.5 Adventure Game</h5>
+                              <p class="card-text">Old School Prompt Based Adventure Game Using ChatGPT 3.5 to orchestrate the Adventure!</p>
+                              <a href="https://chatgptgame.onrender.com/" class="btn btn-primary">Try The Game!</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card text-center">
+                            <img src="{{url_for('static',filename = 'youtubeSentiment.webp')}}" class="card-img-top border-bottom" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Youtube Comments Sentiment Analyzer</h5>
+                              <p class="card-text">Utilizes your choice of a variety of Machine Learning Algorithms to Compute the Sentiment of the Comments in the Youtube Video.</p>
+                              <a href="https://huggingface.co/spaces/GIGACHAhoon/BasicNNYoutubeSentimentTop5CommentPrediction" class="btn btn-primary" >Try It Out!</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card text-center">
+                            <img src="{{url_for('static',filename = 'spotifyProj.jpg')}}" class="card-img-top border-bottom" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">My Spotify Listening Habits Dashboard</h5>
+                              <p class="card-text">A dashboard of my Listening Habits on Spotify.</p>
+                              <a href="#" class="btn btn-primary">Have a look at what my favourite songs are! Dont Judge! 😅</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>  
