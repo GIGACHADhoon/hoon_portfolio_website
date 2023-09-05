@@ -79,23 +79,34 @@
             </section>
             <hr class="m-0" />
             <!-- Data Analysis Projects-->
-            <section class="resume-section" id="hbpa">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Data Analysis Projects</h2>
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col">
-                          <div class="card text-center">
-                            <img src="{{url_for('static',filename = 'spotifyProj.jpg')}}" class="card-img-top border-bottom" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">My Spotify Listening Habits Dashboard</h5>
-                              <p class="card-text">A dashboard of my Listening Habits on Spotify for the last 2 years. My top 50 most listened to songs are shown. <br> Furthermore Details of the Data Engineering Pipeline Utilised can be viewed <a href = "https://docs.google.com/presentation/d/1ChTMCwFOOHGqnFA41j0cqknfh0Dv2vfUJQhut6eum9E/edit?usp=sharing">here</a></p>
-                              <a href="https://hoons-spotify-dashboard.onrender.com/" class="btn btn-primary">Have a look at what my favourite songs are! Dont Judge! 😅</a>
-                            </div>
-                          </div>
+            <section class="resume-section text-center" id="hbpa"> <!-- Added "text-center" class to center the section -->
+                <div class="container">
+                  <h2 class="mb-5">Data Analysis Projects</h2>
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card" style="height: 100%;">
+                        <img src="{{url_for('static',filename = 'spotifyProj.jpg')}}" class="card-img-top border-bottom" style="height: 300px;" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">My Spotify Listening Habits Dashboard</h5>
+                          <p class="card-text">A dashboard of my Listening Habits on Spotify for the last 2 years. My top 50 most listened to songs are shown. <br> Furthermore Details of the Data Engineering Pipeline Utilised can be viewed <a href="https://docs.google.com/presentation/d/1ChTMCwFOOHGqnFA41j0cqknfh0Dv2vfUJQhut6eum9E/edit?usp=sharing">here</a></p>
+                          <a href="https://hoons-spotify-dashboard.onrender.com/" class="btn btn-primary">Click here to view my Listening Habits</a>
                         </div>
+                      </div>
                     </div>
+                    <div class="col">
+                      <div class="card" style="height: 100%;">
+                        <img src="{{url_for('static',filename = 'c19.jpg')}}" class="card-img-top border-bottom" style="height: 300px;" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Covid-19 NSW Dashboard</h5>
+                          <p class="card-text">Covid-19 Dashboard to be utilized to study the pandemic in NSW from 2020 till 2023 <br> Would appreciate some patience for the Dashboard to Load</p>
+                          <a href="https://covidnswdashboard.onrender.com/" class="btn btn-primary">Click here to view the Dashboard.</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </section>
+              </section>
+              
             <!-- ML Projects-->
             <section class="resume-section" id="hbpml">
                 <div class="resume-section-content">
